@@ -14,6 +14,6 @@ def every_factor(num):
     # return the set sorted from least to greatest.
     return sorted(factors)
 
-result = every_factor(12)
+result = every_factor(67)
 
 print(result)
