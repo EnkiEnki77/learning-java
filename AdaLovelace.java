@@ -3,5 +3,6 @@ public class AdaLovelace {
         System.out.println("Once upon a time");
         System.out.println("There was");
         System.out.println("a dinosaur");
+        System.out.println("He was cool!");
     }
 }
