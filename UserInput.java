@@ -1,20 +1,14 @@
 import java.util.Scanner;
 
 public class UserInput {
+
     public static void main(String[] args) {
-
-        Scanner scanner = null;
-        try {
-            scanner = new Scanner(System.in);
-
-            System.out.println("Write something: ");
+        try (Scanner scanner = new Scanner(System.in)) {
+            System.out.println("Write a message: ");
 
             String message = scanner.nextLine();
 
-            System.out.println("You typed: " + message);
-        } finally {
-            if (scanner != null)
-                scanner.close();
+            System.out.println("You wrote: " + message);
         }
     }
 }
