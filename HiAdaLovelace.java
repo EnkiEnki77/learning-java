@@ -9,7 +9,7 @@ public class HiAdaLovelace {
 
             String message = scanner.nextLine();
 
-            System.out.println(message + ", " + name);
+            System.out.println(message + " " + name);
         }
     }
 }
