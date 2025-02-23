@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "java-mooc_4851fc3e"
+        },
+        {
+            "type": "java",
             "name": "HelloWorld",
             "request": "launch",
             "mainClass": "HelloWorld",
